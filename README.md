@@ -60,7 +60,7 @@ cd server
 npm install  
 npm run dev  
 
-Backend runs on: http://localhost:3001
+Backend runs on: https://server-pjub.onrender.com
 
 ---
 
@@ -70,7 +70,7 @@ cd client
 npm install  
 npm run dev  
 
-Frontend runs on: http://localhost:5173
+Frontend runs on: https://pwdclientpro.netlify.app/
 
 ---
 
@@ -186,9 +186,8 @@ Database: MongoDB Atlas
 
 PORT=3001  
 MONGO_URI=your_mongodb_url  
-JWT_SECRET=your_secret  
-RESEND_API_KEY=your_key  
-CLIENT_URL=http://localhost:5173  
+JWT_SECRET=your_secret   
+CLIENT_URL=https://pwdclientpro.netlify.app  
 
 ---
 
